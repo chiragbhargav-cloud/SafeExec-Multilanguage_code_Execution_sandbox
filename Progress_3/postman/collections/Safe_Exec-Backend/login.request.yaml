@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: localhost:3000/user/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"emailId\": \"mohansingh@gmail.com\",\r
+
+    \    \"password\": \"Mohan@954\"\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: ""
+    language: text/javascript
+order: 2000
