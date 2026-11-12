@@ -1,0 +1,7 @@
+workspace:
+  id: 159ad7ad-e374-411f-8765-b5db34bc6029
+cloudResources:
+  collections:
+    ../postman/collections/Safe_Exec-Backend: 59585418-9f470ac0-2845-4f24-a790-3d29ca3e627e
+  globals:
+    ../postman/globals/workspace.globals.yaml: 28ec7450-1199-401c-817c-e56812f20ece

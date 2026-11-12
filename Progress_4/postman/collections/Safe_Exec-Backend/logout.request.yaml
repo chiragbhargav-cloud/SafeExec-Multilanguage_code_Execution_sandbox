@@ -1,0 +1,5 @@
+$kind: http-request
+description: Logs out the currently authenticated user using the token cookie set by login.
+url: 'http://localhost:3000/user/logout'
+method: POST
+order: 3000
