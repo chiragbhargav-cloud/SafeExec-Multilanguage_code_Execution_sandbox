@@ -1,0 +1,24 @@
+$kind: http-request
+description: ""
+url: localhost:3000/user/admin/register
+method: POST
+body:
+  type: json
+  content: "{ \r
+
+    \    \"firstName\":\"Shivam\",\r
+
+    \    \"lastName\":\"Kumar\",\r
+
+    \    \"emailId\": \"Shivamkumar@gmail.com\",\r
+
+    \    \"password\": \"Shivam@124\"\r
+
+    \    \r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: ""
+    language: text/javascript
+order: 6000
